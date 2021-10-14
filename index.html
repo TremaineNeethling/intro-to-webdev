@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intro-To-Webdev</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro-To-Webdev</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
 </head>
 <body>
-    <header class="page-header" aria-label="page header">
-        <div class="header-logo-container"></div>
-        <nav class="main-navigation-container" aria-label="main navigation"></nav>
-    </header>
+  <header class="page-header" aria-label="page header">
+    <div class="header-logo-container"></div>
+    <nav class="main-navigation-container" aria-label="main navigation"><ul class="main-navigation">
+      <li><a href="about">About</a></li>
+      <li><a href="portfolio">Portfolio</a></li>
+      <li><a href="contact">Contact</a></li>
+    </ul></nav>
+    <form
+      class="header-search"
+      name="search"
+      action="https://duckduckgo.com/"
+      method="get"
+      role="search"
+    ><input type="search" name="q" placeholder="Search.." />
+    <input type="submit" value="search" /></form>
+  </header>
 </body>
 </html>
