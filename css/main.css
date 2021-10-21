@@ -8,8 +8,7 @@ body {
 }
 
 .header-logo-container {
-  background: transparent url("../assets/Logo.png")
-    center no-repeat;
+  background: transparent url("../assets/Logo.png") center center no-repeat;
   background-size: contain;
   height: 158px;
   width: 100%;
@@ -81,7 +80,7 @@ body {
     display: flex;
     justify-content: space-around;
   }
-  
+ 
   .header-search {
     flex: 0 1 300px;
   }
